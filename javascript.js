@@ -50,11 +50,11 @@ function createcard() {
     bookEl.innerHTML = `
       <div class="card-header">
         <h3 class="title">${book.title}</h3>
-        <h5 class="author">${book.author}</h5>
+        <h3 class="author">${book.author}</h3>
       </div>
       <div class="card-body">
-        <p>${book.pages} pages</p>
-        <p class="read-status">${book.read ? "Read" : "Not Read Yet"}</p>
+        <h3>${book.pages} pages</h3>
+        <h3 class="read-status">${book.read ? "Read" : "Not Read Yet"}</h3>
         <button class="remove-btn" onclick="deleteBook(${i})">Remove</button>
         <button class="toggle-read-btn" onclick="toggleRead(${i})">Toggle Read</button>
       </div>

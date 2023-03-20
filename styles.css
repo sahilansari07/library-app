@@ -15,6 +15,7 @@ body {
     border: black solid 5px;
     display: inline-block;
     gap: 10px;
+    margin: 10px;
 }
 
 form {
@@ -32,7 +33,7 @@ input[type="number"],
 select {
     width: 90%;
     padding: 12px;
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 8px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -51,7 +52,7 @@ label {
 input[type="submit"] {
     width: 100%;
     padding: 12px 20px;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 20px;
     background-color: #333;
     color: #fff;
@@ -92,7 +93,7 @@ input[type="submit"]:hover {
 
 .book-status {
     margin: 10px 0 0 0;
-    color: #333;
+    color: #b30f0f;
 }
 
 button {

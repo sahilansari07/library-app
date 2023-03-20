@@ -7,34 +7,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Library</title>
   <link href="styles.css" rel="stylesheet">
-
 </head>
 
 <body>
+
   <h1>Library</h1>
-  <div class="main">
-    <label for="firtstname"> Book Title</label>
+  <button id="new-book-btn">+New Book</button>
+
+  <form id="new-book-form" style="display: none;">
+    <label for="firtstname"> Book Title:</label>
     <input type="text" id="inputTitle"> <br>
-    <label for="inputAuthor"> Author</label>
+    <label for="inputAuthor"> Author:</label>
     <input type="text" id="inputAuthor"><br>
-    <label for="inputPages"> No. of pages</label>
+    <label for="inputPages"> No. of pages:</label>
     <input type="number" id="inputPages"><br>
     <label for="inputRead"> Read the book ?</label>
     <input type="checkbox" id="inputRead"><br>
-    <button id="addbutton" onclick="addBookToLibrary()">+Add book</button>
-    <br> <br> <br>
-  </div>
-  <div class="table">
-    <table id="displaytable">
-      <tr>
-        <th>Book Title</th>
-        <th>Author</th>
-        <th>No. of Pages</th>
-        <th>Read the book ?</th>
-      </tr>
-    </table> 
-  </div>
+    <input type="submit" value="Add Book">
+  </form>
+<div id="library"></div>
+</body>
 
+
+<body>
   <script src="javascript.js"></script>
 </body>
 
